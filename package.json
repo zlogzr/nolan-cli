@@ -1,7 +1,19 @@
 {
   "name": "nolan-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "前端脚手架",
+  "author": "Nolan Zhang",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "React",
+    "cli"
+  ],
+  "homepage": "https://github.com/zlogzr/nolan-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zlogzr/nolan-cli"
+  },
   "main": "index.js",
   "bin": {
     "nolan-cli": "bin/main.js"
@@ -9,9 +21,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "axios": "^1.0.0",
     "chalk": "^4.1.2",
